@@ -1,0 +1,2 @@
+# Lynnlinlin.github.io
+blog
