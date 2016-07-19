@@ -73,7 +73,6 @@ p
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  overflow: hidden;
 }
 
 header
@@ -362,67 +361,4 @@ footer .copy
 {
   color: rgba(255,255,255,0.9);
   padding: 2%;
-}
-
-.mask
-{
-  display: none;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background: rgba(0,0,0,0.3);
-}
-
-#sidebar
-{
-  position: fixed;
-  top: 0;
-  /*right: -15%;*/
-  right: 0;
-  -webkit-transform: translate(100%,0);
-  -moz-transform: translate(100%,0);
-  -ms-transform: translate(100%,0);
-  -o-transform: translate(100%,0);
-  transform: translate(100%,0);
-  bottom: 0;
-  width: 15%;
-  background: #333;
-  padding: 2% 0;
-  /*transition: right 0.5s;
-  transition: all 0.5s*/
-  transition: transform 0.5s;
-}
-
-#sidebar ul
-{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#sidebar ul a
-{
-  color: #fff;
-  text-decoration: none;
-  padding: 7% 13%;
-  width: 100%;
-  display: inline-block;
-}
-
-#sidebar ul a:hover
-{
-  background: #444;
-}
-
-.back-to-top
-{
-  display: none;
-  position: fixed;
-  bottom: 10%;
-  right: 10%;
-  border: none;
-  border-radius: 10%;
-  padding: 0.9%;
 }
