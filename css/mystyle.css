@@ -265,7 +265,7 @@ header .banner .inner .icon-double-angle-down
   margin-top: 0px;
 }
 
-.content .gray-section .text-section p
+.content .gray-section .text-section p,.content .gray-section .text-section a
 {
   font-size: 18px;
   letter-spacing: 1px;
